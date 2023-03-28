@@ -29,8 +29,7 @@ public class User {
     ////// CREATE THE PATAMERIZED CONSTRUCTOR//////
 
 
-    public User(long id, String first_name, String last_name, String email, int age) {
-        this.id = id;
+    public User( String first_name, String last_name, String email, int age) {
         First_name = first_name;
         Last_name = last_name;
         Email = email;
@@ -40,13 +39,7 @@ public class User {
     ///////CREATE THE GETTER AND SETTER /////
 
 
-    public long getId() {
-        return id;
-    }
 
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public String getFirst_name() {
         return First_name;

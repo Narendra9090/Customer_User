@@ -16,7 +16,7 @@ public class Controller {
 
     //C- create or insert
 
-    @PostMapping("/add_user") // @RequestMapping(value = "/add_user" , method = RequestMethod.POST)
+    @PostMapping("/add_user")
     public String add(@RequestBody User user){
 
         return service.add(user);
