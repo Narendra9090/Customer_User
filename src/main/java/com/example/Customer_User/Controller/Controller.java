@@ -38,7 +38,7 @@ public class Controller {
         return service.update(id,name);
     }
 
-    //DELETE
+    //DELETE OR REMOVE
 
     @DeleteMapping("/delete_user_db/{id}")//@RequestMapping(value = "/delete_user_db/{id}", method = RequestMethod.DELETE)
     public String delete(@PathVariable long id){
